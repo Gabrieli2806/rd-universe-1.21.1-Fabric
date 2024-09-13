@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rd-universe",
+	"version": "${version}",
+	"name": "rd-universe",
+	"description": "Mod de Los Rompe Discotecas! para incluir items y bloques nuevos!",
+	"authors": [
+		"Gabrieli2806"
+	],
+	"contact": {
+		"homepage": "https://github.com/Gabrieli2806",
+		"sources": "https://github.com/Gabrieli2806"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rd-universe/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.g2806.rd.Rduniverse"
+		],
+		"fabric-datagen": [
+			"com.g2806.rd.RduniverseDataGenerator"
+		],
+		"client": [
+			"com.g2806.rd.rdClient"
+		]
+	},
+	"mixins": [
+		"rd-universe.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
