@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item RD_COIN = registerItem("rd_coin", new Item(new Item.Settings()));
+    public static final Item RD_CASH = registerItem("rd_cash", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -21,6 +22,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(RD_COIN);
+            entries.add(RD_CASH);
         });
     }
 }
