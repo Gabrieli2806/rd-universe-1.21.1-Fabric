@@ -10,11 +10,3 @@ Mod de Los Rompe Discotecas! para incluir items y bloques nuevos!
 2. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft **1.21.1**.
 3. Place the mod `.jar` in your `.minecraft/mods/` folder.
 4. Launch Minecraft with the Fabric profile.
-
-## Authors
-
-Gabrieli2806
-
----
-
-> **Repository:** [github.com/Gabrieli2806/rd-universe-1.21.1-Fabric](https://github.com/Gabrieli2806/rd-universe-1.21.1-Fabric)
